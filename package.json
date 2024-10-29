@@ -1,4 +1,10 @@
 {
     "name": "ria-example",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "devDependencies": {
+        "jest": "^29.7.0"
+    },
+    "scripts": {
+        "test": "jest"
+    }
 }
