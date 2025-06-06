@@ -1,9 +1,12 @@
 import { fatorial } from '../src/fatorial'; 
 
-
 describe('Função fatorial', () => {
   test('fatorial de 5 deve ser 120', () => {
     expect(fatorial(5)).toBe(120);
+  });
+
+  test('fatorial de 1 deve ser 1', () => {
+    expect(fatorial(1)).toBe(1);
   });
 
   test('fatorial de 0 deve ser 1', () => {
@@ -14,5 +17,3 @@ describe('Função fatorial', () => {
     expect(() => fatorial(-3)).toThrow('Fatorial não definido para números negativos');
   });
 });
-
-
