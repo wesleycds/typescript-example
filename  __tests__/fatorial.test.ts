@@ -14,3 +14,5 @@ describe('Função fatorial', () => {
     expect(() => fatorial(-3)).toThrow('Fatorial não definido para números negativos');
   });
 });
+
+
